@@ -1,0 +1,119 @@
+batch
+LEARNING_RATE = 1  # The learning rate.
+CONVERGENCE_MARGIN = 0.001  # The convergence criterion.
+MAX_ITERATIONS = 1000 # Maximal number of passes through the datapoints in stochastic gradient descent.
+MINIBATCH_SIZE = 1024 # Minibatch size (only for minibatch gradient descent)
+
+At convergence point: 67Sum of Square of Gradient 0.0009747859499254939
+                       Real class
+                        Real class
+                        0        1
+Predicted class:  0 83831.000 3242.000
+                  1  879.000 12046.000
+Accuracy :0.9587891757835156
+For class 0:  Precision :0.9627668737725816 Recall :0.9896234210836973
+For class 1:  Precision :0.9319922630560928 Recall :0.9896234210836973
+
+batch
+LEARNING_RATE = 0.1  # The learning rate.
+    CONVERGENCE_MARGIN = 0.001  # The convergence criterion.
+    MAX_ITERATIONS = 1000 # Maximal number of passes through the datapoints in stochastic gradient descent.
+    MINIBATCH_SIZE = 1024 # Minibatch size (only for minibatch gradient descent)
+
+At convergence point: 589Sum of Square of Gradient 0.000999082197894323
+ Real class
+                        0        1
+Predicted class:  0 80674.000 2015.000
+                  1 4036.000 13273.000
+
+
+
+For class 0:  Precision :0.975631583402871 Recall :0.9523550938496045
+For class 1:  Precision :0.7668265064417356 Recall :0.9523550938496045
+
+
+
+stochastic 
+LEARNING_RATE = 0.1  # The learning rate.
+    CONVERGENCE_MARGIN = 0.001  # The convergence criterion.
+    MAX_ITERATIONS = 1000 # Maximal number of passes through the datapoints in stochastic gradient descent.
+    MINIBATCH_SIZE = 1024 # Minibatch size (only for minibatch gradient descent)
+Real class
+                        0        1
+Predicted class:  0 83831.000 3242.000
+                  1  879.000 12046.000
+
+Accuracy :0.9587891757835156
+For class 0:  Precision :0.9627668737725816 Recall :0.9896234210836973
+For class 1:  Precision :0.9319922630560928 Recall :0.9896234210836973
+
+
+stochastic 
+LEARNING_RATE = 1  # The learning rate.
+    CONVERGENCE_MARGIN = 0.001  # The convergence criterion.
+    MAX_ITERATIONS = 1000 # Maximal number of passes through the datapoints in stochastic gradient descent.
+    MINIBATCH_SIZE = 1024 # Minibatch size (only for minibatch gradient descent)
+Real class
+                        0        1
+Predicted class:  0 83831.000 3242.000
+                  1  879.000 12046.000
+
+
+Accuracy :0.9587891757835156
+For class 0:  Precision :0.9627668737725816 Recall :0.9896234210836973
+For class 1:  Precision :0.9319922630560928 Recall :0.9896234210836973
+            
+
+
+minibatch
+LEARNING_RATE = 0.01  # The learning rate.
+    CONVERGENCE_MARGIN = 0.001  # The convergence criterion.
+    MAX_ITERATIONS = 1000 # Maximal number of passes through the datapoints in stochastic gradient descent.
+    MINIBATCH_SIZE = 1024 # Minibatch size (only for minibatch gradient descent)
+At convergence point: 5312Sum of Square of Gradient 0.0009089160017176716
+Real class
+                        0        1
+Predicted class:  0 83831.000 3242.000
+                  1  879.000 12046.000
+
+Accuracy :0.9587891757835156
+For class 0:  Precision :0.9627668737725816 Recall :0.9896234210836973
+For class 1:  Precision :0.9319922630560928 Recall :0.9896234210836973
+
+
+minibatch
+LEARNING_RATE = 0.1  # The learning rate.
+    CONVERGENCE_MARGIN = 0.001  # The convergence criterion.
+    MAX_ITERATIONS = 1000 # Maximal number of passes through the datapoints in stochastic gradient descent.
+    MINIBATCH_SIZE = 1024 # Minibatch size (only for minibatch gradient descent)
+At convergence point: 611Sum of Square of Gradient 0.0009972860505125776
+                       Real class
+                        0        1
+Predicted class:  0 80674.000 2015.000
+                  1 4036.000 13273.000
+
+
+For class 0:  Precision :0.975631583402871 Recall :0.9523550938496045
+For class 1:  Precision :0.7668265064417356 Recall :0.9523550938496045
+
+
+
+LEARNING_RATE = 0.1  # The learning rate.
+    CONVERGENCE_MARGIN = 0.001  # The convergence criterion.
+    MAX_ITERATIONS = 1000 # Maximal number of passes through the datapoints in stochastic gradient descent.
+    MINIBATCH_SIZE = 100 # Minibatch size (only for minibatch gradient descent)
+
+    Real class
+                        0        1
+Predicted class:  0 83891.000 3257.000
+                  1  819.000 12031.000
+
+                  Accuracy :0.9592391847836956
+For class 0:  Precision :0.9626267957956579 Recall :0.990331719985834
+For class 1:  Precision :0.9362645914396888 Recall :0.990331719985834
+
+
+Batch gradienttook a longer time to reach convergence, so stochastic with same set
+of hyper parameters did it quicker. but the descent was smooth in batch  , come closer
+to minimum in every step. Minibatchwas in between batch and stoichastic in terms if both
+the plot and speed
